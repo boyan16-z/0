@@ -6,5 +6,7 @@ while True:
     elif i == 2:
         for j in bit:
             print('\nЗадача: ',j['Задача'],'Категория: ',j['Категория'],'Дата: ',j['Дата'])
-    elif i == 3: break
-    else: print('Ошибка ввода.\n')
+    elif i == 3: 
+        break
+    else: 
+        print('Ошибка ввода.\n')
